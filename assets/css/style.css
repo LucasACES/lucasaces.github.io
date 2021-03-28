@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#1C1C1C;
+    padding:0px;
+    margin: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1C1C1C;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #B70B0B;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* ?navbar */
+
+.menu{
+    position: fixed;
+    display: flex;
+    width:100%;
+    background-color: #1c1c1c;
+    padding-top: 15px;
+}
+.logo-img{
+    width:40px;
+    height: 40px;
+    margin-left: 60px;
+}
+
+.botoes{
+    display: inline;
+    margin: auto;
+    margin-right: 80px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.botoes li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.home-bt{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    
+}
+
+.home-bt:hover{
+    color: #B70B0B;
+    
+}
+
+.about-bt{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.about-bt:hover{
+    color: #B70B0B;
+}
+
+.resume-bt{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.resume-bt:hover{
+    color: #B70B0B;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ?projects */
+
+.home-sec{
+    font-family: 'Nunito', sans-serif;
+    width:100%;
+    
+}
+
+.project{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;  
+    padding-top: 50px;  
+}
+
+#images{
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+}
+
+.container div{
+    display: inline-block;
+    margin: 5px 0px;
+    padding: 0;
+    
+}
+
+.tam{
+    width: 280px;
+    height: 180px;
+
+}
+
+.tam2{
+    width: 280px;
+    height: 180px;
+    padding-left: 30px;
+}
+
+.tam3{
+    width: 280px;
+    height: 180px;
+    padding-left: 30px;
+}
+
+.tam4{
+    width: 280px;
+    height: 180px;
+    padding-left: 30px;
+}
+
+.socialmedia{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.social{
+    text-align: center;
+    padding: 20px;
+}
+
+.Codepen{
+    padding-left: 30px;
+}
+
+.Instagram{
+    padding-left: 30px;
+}
+
+.linkedin{
+    padding-left: 30px;
+}
+
+.twitter{
+    padding-left: 30px;
+}
+
+.Youtube{
+    padding-left: 30px;
+}
+
+
+/* ?transiction */
+
+.transiction{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/* ?About */
+
+.about-title{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+}
+
+.box{
+    width: 90%;
+    margin: auto;
+}
+
+.box-text{
+    color: #F2F2F2;
+    padding:3px;
+    text-align: justify;
+    text-indent: 50px;
+    font-family: 'Kiwi Maru', serif;
+}
+
+
+/* ?resume */
+
+.resume-title{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+}
+.resume{
+    align-items: center;
+    margin: auto;
+}
+
+.cima{
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    align-items: center;
+}
+
+.baixo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.telegram-box{
+    display: inline-flex;
+    margin-right: 135px;
+    margin-left: -80px;
+    align-items: center;
+    
+}
+
+.telephone-box{
+    display: inline-flex;
+    align-items: center;
+}
+
+.instagram-box{
+    display: inline-flex;
+    margin-right: 150px;
+    align-items: center;
+    
+}
+
+.email-box{
+    display: inline-flex;
+    align-items: center;
+}
+
+.resume-text{
+    font-size:25px;
+    font-family: 'Kiwi Maru', serif;
+    margin-left: 20px;
+    color: #F2F2F2;
+}
+
+
+/* ?footer */
+
+footer{
+    display: flex;
+}
+
+.dir{
+    color: #F2F2F2;
+    text-align: center;
+}
